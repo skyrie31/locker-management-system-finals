@@ -29,8 +29,8 @@ class Allocate extends Model
 
     // Cast specific attributes
     protected $casts = [
-        'date_rented' => 'datetime',  
-        'date_ended' => 'datetime',  
+        'date_rented' => 'date',  
+        'date_ended' => 'date',  
         'payment' => 'decimal:2',    
     ];
 }
